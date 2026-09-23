@@ -9,7 +9,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status",
-        state: "✦ Titan • Online",
+        state: "✦ ᏢᎻᎯᏁᏖᎾᎷ ᏖᏒᎾᏬᏢᎬ",
         type: 4, // Custom
       },
     ],
@@ -37,9 +37,9 @@ export const botConfig = {
       { question: "Why do you want to join?", required: true },
     ],
     statusColors: {
-      pending: "#F59E0B",   // amber
-      approved: "#10B981",  // emerald
-      denied: "#EF4444",    // red
+      pending: "#F59E0B",
+      approved: "#10B981",
+      denied: "#EF4444",
     },
     applicationCooldown: 24,
     deleteDeniedAfter: 7,
@@ -52,22 +52,18 @@ export const botConfig = {
   // =========================
   embeds: {
     colors: {
-      // Main brand
-      primary: "#8B5CF6",      // violet
-      secondary: "#1E1B2E",    // deep dark purple
+      primary: "#8B5CF6",
+      secondary: "#1E1B2E",
 
-      // Status
-      success: "#10B981",      // emerald
-      error: "#EF4444",        // red
-      warning: "#F59E0B",      // amber
-      info: "#22D3EE",         // cyan
+      success: "#10B981",
+      error: "#EF4444",
+      warning: "#F59E0B",
+      info: "#22D3EE",
 
-      // Utility
       light: "#F8FAFC",
       dark: "#0F0D1A",
       gray: "#94A3B8",
 
-      // Discord-style shortcuts
       blurple: "#8B5CF6",
       green: "#10B981",
       yellow: "#F59E0B",
@@ -75,7 +71,6 @@ export const botConfig = {
       red: "#EF4444",
       black: "#0F0D1A",
 
-      // Feature-specific
       giveaway: {
         active: "#10B981",
         ended: "#EF4444",
@@ -90,7 +85,6 @@ export const botConfig = {
       birthday: "#EC4899",
       moderation: "#A78BFA",
 
-      // Ticket priority
       priority: {
         none: "#94A3B8",
         low: "#22D3EE",
@@ -100,7 +94,7 @@ export const botConfig = {
       },
     },
     footer: {
-      text: "Titan Bot • Premium",
+      text: "ᏢᎻᎯᏁᏖᎾᎷ ᏖᏒᎾᏬᏢᎬ ᏰᎾᏖ",
       icon: null,
     },
     thumbnail: null,
@@ -194,7 +188,7 @@ export const botConfig = {
   },
 
   // =========================
-  // BIRTHDAY SETTINGS
+  // BIRTHDAY SETTINGS (disabled)
   // =========================
   birthday: {
     defaultRole: null,
@@ -308,7 +302,7 @@ export const botConfig = {
     welcome: true,
     tickets: true,
     giveaways: true,
-    birthday: true,
+    birthday: false,          // ← birthday removed / disabled
     counter: true,
     verification: true,
     reactionRoles: true,
